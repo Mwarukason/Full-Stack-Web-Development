@@ -10,8 +10,8 @@
 The course was designed with the expectation for 3 weeks to work through the material:
 
 ###Series:
-####1: week for HTML & CSS, 
-####2: week for Introductory JavaScript, 
-####3: week for Advanced JavaScript.
+####1: Week for HTML & CSS, 
+####2: Week for Introductory JavaScript, 
+####3: Week for Advanced JavaScript.
 
 by The Hong Kong University of Science and Technology
