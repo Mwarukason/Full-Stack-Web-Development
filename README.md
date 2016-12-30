@@ -1,3 +1,16 @@
 # FULL-STACK-WEB-DEVELOPMENT-COURSERA
 ##HTML, CSS and JavaScript
+
+This course introduces you to these fundamental browser components:
+
+HTML, for the output of text, sound, images and video in a web page,
+CSS, for applying style and some behavioral qualities to HTML, and:
+JavaScript, for controling the CSS and HTML.
+The course was designed with the expectation that you use 3 weeks to work through the material:
+
+#SERIES
+1 week for HTML & CSS
+1 week for Introductory JavaScript
+1 week for Advanced JavaScript
+
 by The Hong Kong University of Science and Technology
