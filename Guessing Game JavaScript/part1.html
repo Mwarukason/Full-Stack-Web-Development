@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body onload="do_game()">
+    <script>
+        var colors = ["blue","cyan", "gray", "green", "magenta", "orange", "red", "white",
+        "yellow"];
+        var target;
+        var guess_input;
+        function do_game() {
+            colors.sort();
+            target = Math.floor(Math.random() * colors.length);
+            //alert(colors[target]); Gives the Clue of the target color to the player
+            do {
+                guess_input = prompt(
+                    "I am thinking of one of these colors\n\n" + colors +
+                    "\n\nWhat color am I thinking of?"
+                )
+            } while (guess_input != colors[target]);
+        }
+    </script>
+</body>
+</html>
