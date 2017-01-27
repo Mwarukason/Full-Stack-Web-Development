@@ -7,7 +7,7 @@
 ####-CSS, for applying style and some behavioral qualities to HTML, and
 ####-JavaScript, for controling the CSS and HTML.
 
-The course was designed with the expectation for 3 weeks to work through the material:
+The course was designed for 3 weeks to work through all concepts from introductory to Advanced:
 
 ###Series:
 ####1: Week for HTML & CSS, 
