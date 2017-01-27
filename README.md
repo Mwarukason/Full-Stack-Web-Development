@@ -14,4 +14,4 @@ The course was designed for 3 weeks to work through all concepts from introducto
 ####2: Week for Introductory JavaScript, 
 ####3: Week for Advanced JavaScript.
 
-by The Hong Kong University of Science and Technology
+Facilitated by Prof. David Rossiter. from Hong Kong University of Science and Technology
