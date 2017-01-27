@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            function do_something() {
+                var theBody = document.getElementById("theBody");
+                var theImg = document.createElement("img");
+                theImg.src = "amri.jpg";
+                theBody.appendChild(theImg);
+            }
+        </script>
+    </head>
+    <body id="theBody" onload="do_something()"></body>
+</html>

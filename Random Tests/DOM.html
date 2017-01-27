@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        Test site
+    </title>
+    <script>
+    function insert_new_text(){
+        var newItem = document.createElement("hr");
+    
+        var destParent = document.getElementsByTagName("body")[0];
+        destParent.insertBefore(newItem, destParent.firstChild);
+    }
+    
+    function delete1(){
+        var the_node=document.getElementById("firstP");
+        the_node.parentNode.removeChild(the_node);    
+    }
+    function delete2(){
+        var the_node=document.getElementByTagName("p")[0];
+        the_node.parentNode.removeChild(the_node);
+    }
+    function delete3(){
+        var the_parent=document.getElementById("theBody");
+        the_parent.removeChild(the_parent.firstChild);    
+    }
+    
+    function delete_all_children(){
+        var theNode = document.getElementById("theBody");
+        while (theNode.firstChild)
+            theNode.removeChild(theNode.firstChild);    
+    }
+    
+    function myFunction(){
+        var the_node=document.getElementById("myList").lastChild;
+        var the_clone=the_node.cloneNode();
+        //var the_clone=the_node.cloneNode(true);
+        document.getElementById("myList").appendChild(the_clone);
+    }
+    
+    </script>
+    </head>
+    <body onClick = "insert_new_text()">
+    <h1 id="my_text"> Please Click on the web page</h1>
+    
+    
+    </body>
+</html>

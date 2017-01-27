@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+    <script>
+        var the_timer, x_position = 0, the_image;
+        function set_timer(){
+            the_image = document.getElementById("amri_image");
+            x_position = x_position + 1;
+            the_image.style.left = x_position;
+            <!--the_timer = setTimeout(set_timer, 50); -->
+        }
+    </script></head>
+    <!--<body onload="set_timer()"> -->
+    <body onload="the_timer=setInterval(set_timer,50)">
+        <img src="amri.jpg" id="amri_image"
+            style="position:absolute; left:0">
+        <!--<button onclick="clearTimeout(the_timer)"> -->
+        <button onclick="clearInterval(the_timer)">
+            STOP! </button>
+    </body>
+</html>

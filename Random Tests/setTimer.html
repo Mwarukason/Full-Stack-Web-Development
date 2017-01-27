@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+    <script>
+        var wait_duration;
+        function set_wakeup_time(){
+            wait_duration=prompt("HOW LONG DO YOU" + "WANT TO SLEEP?");
+            setTimeout(wake_up_msg, wait_duration);
+        }
+        function wake_up_msg(){
+        alert("WAKE UP! WAKE UP! WAKE UP!!!");
+        }
+    </script>
+    </head>
+    <body onload="set_wakeup_time()">
+        <h1>WAKE UP CALL</h1>
+    </body>
+</html>

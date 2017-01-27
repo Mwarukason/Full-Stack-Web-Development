@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            function color_change(new_color) {
+                document.getElementById("myDiv")
+                        .style.background=new_color;
+            }
+        </script>
+        <div id="myDiv"
+            style="position:absolute;background:yellow;
+            left:300; top:100; width:100; font-size:53pt"
+            onmouseover="color_change('blue');"
+            onmouseout="color_change('green');">
+            Move ur mouse over the text...
+            then move it out....
+        </div>
+    </body>
+</html>

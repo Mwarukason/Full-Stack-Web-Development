@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            function do_something() {
+                var theBody = document.getElementById("theBody");
+                var theImg = document.getElementsByTagName("img")[0];
+                theBody.appendChild(theImg.cloneNode(true));
+                theBody.removeChild(theBody.lastChild);
+            }
+        </script>
+    </head>
+    <body id="theBody" onload="do_something()"><img src="amri.jpg"></body>
+</html>
