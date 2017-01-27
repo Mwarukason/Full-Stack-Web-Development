@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>MATCHING GAME
+    </title>
+    <style>
+        img{
+            position: absolute;
+        }
+        
+        div{
+            position: absolute;width: 500px;height: 500px;
+        }
+        
+        #rightSide{
+            left: 500px; border-left: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Matching Game</h2>
+    <p>Click On the Extra Smiling Face On The Left.</p>
+    
+    <div id="leftSide"></div>
+    <div id="rightSide"></div>
+    
+    <script>
+        var numberOfFaces = 5;
+        var theLeftSide = document.getElementById("leftSide");
+        var theRightSide = document.getElementById("rightSide");
+        //Applying ideas from DOM PROJECT
+    function generateFaces() {
+        for (i = 0; i < numberOfFaces; ++ i) {
+            img_creat = document.createElement("img");
+            //img_creat.src = "smile.png"; it works if current directory has html files
+            img_creat.src = "http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png"
+            img_creat.style.top = Math.floor(Math.random() * 400) + "px";
+            img_creat.style.left = Math.floor(Math.random() * 400) + "px";
+            theLeftSide.appendChild(img_creat);
+            }
+            leftSideImages = theLeftSide.cloneNode(true);
+            leftSideImages.removeChild(leftSideImages.lastChild);
+            theRightSide.appendChild(leftSideImages);
+        }
+    generateFaces();
+    </script>
+</body>
+</html>
