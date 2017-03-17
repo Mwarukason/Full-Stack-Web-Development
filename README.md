@@ -1,4 +1,4 @@
-# FULL-STACK-WEB-DEVELOPMENT-COURSERA
+# FULL-STACK-WEB-DEVELOPMENT
 ##HTML, CSS and JavaScript
 
 ###The Contents I have learned:
@@ -7,11 +7,11 @@
 ####-CSS, for applying style and some behavioral qualities to HTML, and
 ####-JavaScript, for controling the CSS and HTML.
 
-The course was designed for 3 weeks to work through all concepts from introductory to Advanced:
 
 ###Series:
 ####1: Week for HTML & CSS, 
 ####2: Week for Introductory JavaScript, 
 ####3: Week for Advanced JavaScript.
 
-Facilitated by Prof. David Rossiter. from Hong Kong University of Science and Technology
+Three Projects Developed:
+1.
